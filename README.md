@@ -1,26 +1,19 @@
-# djackets 安裝說明
+# djackets_vue
 
-## 1. 更新 apt 
+## Project setup
 ```
-apt updtae
-```
-## 2. 安裝 python 
-```
-apt update
-apt install python3.8
-
-apt install python3-pip
-
-apt install python3-virtualenv
-
-virtualenv encironment_3_8_2
-source encironment_3_8_2/bin/activate
-
-pip install django==3.1.7
-pip install django-rest-framework
-pip install django-cors-headers
-pip install djoser
-pip install pillow
-pip install stripe
+npm install
 ```
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
